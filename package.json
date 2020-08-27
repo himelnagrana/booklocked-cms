@@ -1,8 +1,8 @@
 {
-  "name": "victor-hugo",
+  "name": "BookLocked",
   "version": "1.0.0",
-  "description": "Victor Hugo is a Hugo boilerplate for creating truly epic websites!",
-  "repository": "netlify/victor-hugo",
+  "description": "For the people who are locked to books. Book review, podcast, opinions, discussions about books.",
+  "repository": "https://github.com/himelnagrana/booklocked-cms",
   "main": "index.js",
   "scripts": {
     "lint": "eslint src",
@@ -19,7 +19,7 @@
     "build:hugo:preview": "npm run build:hugo -- -D -F",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
   },
-  "author": "",
+  "author": "Himel Nag Rana",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.5.5",
